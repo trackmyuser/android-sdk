@@ -4,7 +4,7 @@
 
 ### Download the SDK from the release section
 
-https://github.com/user-attachments/assets/e31eacaa-2d18-4372-a0dc-3b7c99fec332
+https://github.com/user-attachments/assets/e4d96b00-3b74-4bb5-92e5-73bd24fa0240
 
 ### Create a folder called 'libs' in your app's root directory and paste the SDK
 
