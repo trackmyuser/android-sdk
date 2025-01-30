@@ -2,7 +2,7 @@
 
 ## Integrating the the SDK
 
-### Download the SDK from the release section
+### Download the SDK
 
 https://github.com/user-attachments/assets/e4d96b00-3b74-4bb5-92e5-73bd24fa0240
 
