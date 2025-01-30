@@ -36,6 +36,7 @@ public class BootActivity extends AppCompatActivity {
         String sdkKey = "16b41ff1-c40a-4f3f-9eff-a9c2844335b3";
         
         TrackMyUser.init(this, sdkKey);
+        //optional
         TrackMyUser.setUserId(userId);
     }
 }
@@ -55,6 +56,7 @@ class BootActivity : AppCompatActivity() {
         val sdkKey = "16b41ff1-c40a-4f3f-9eff-a9c2844335b3"
 
         TrackMyUser.init(this, sdkKey)
+        //optional
         TrackMyUser.setUserId(userId)
     }
 }
@@ -79,9 +81,11 @@ public class HomeActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        Double adRevenue = 10.0;
         TrackMyUserEvent adImpressionEvent = new TrackMyUserEvent("AD_IMPRESSION");
+        //optional
+        Double adRevenue = 10.0;
         event.setRevenue("INR", adRevenue);
+        //
         TrackMyUser.trackEvent(this, adImpressionEvent);
     }
 }
@@ -98,9 +102,11 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val adRevenue = 10.0
         val adImpressionEvent = TrackMyUserEvent("AD_IMPRESSION")
+        //optional
+        val adRevenue = 10.0
         adImpressionEvent.setRevenue("INR", adRevenue)
+        //
         TrackMyUser.trackEvent(this, adImpressionEvent)
     }
 }
