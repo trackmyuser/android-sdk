@@ -84,7 +84,7 @@ public class HomeActivity extends AppCompatActivity {
         TrackMyUserEvent adImpressionEvent = new TrackMyUserEvent("AD_IMPRESSION");
         //optional
         Double adRevenue = 10.0;
-        event.setRevenue("INR", adRevenue);
+        adImpressionEvent.setRevenue("INR", adRevenue);
         //
         TrackMyUser.trackEvent(this, adImpressionEvent);
     }
