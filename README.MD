@@ -4,9 +4,9 @@
 
 ### Download the SDK from the release section
 
-### Create a folder called 'libs' in your app's root folder
+https://github.com/user-attachments/assets/e31eacaa-2d18-4372-a0dc-3b7c99fec332
 
-### Copy the SDK inside the folder
+### Create a folder called 'libs' in your app's root directory and paste the SDK
 
 ### Include the SDK in your gradle file
 
@@ -21,3 +21,4 @@
 ### Create an event in the dasboard
 
 ### Call the trackEvent method
+
