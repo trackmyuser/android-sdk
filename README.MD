@@ -8,6 +8,8 @@ https://github.com/user-attachments/assets/e31eacaa-2d18-4372-a0dc-3b7c99fec332
 
 ### Create a folder called 'libs' in your app's root directory and paste the SDK
 
+https://github.com/user-attachments/assets/2cc90c18-ea9a-4d14-bf85-bf6906bd5e27
+
 ### Include the SDK in your gradle file
 
 ## Initialise the SDK
