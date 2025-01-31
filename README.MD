@@ -2,25 +2,25 @@
 
 ## Integrating the the SDK
 
-### Download the SDK
+### 1. Download the SDK
 
 https://github.com/user-attachments/assets/e4d96b00-3b74-4bb5-92e5-73bd24fa0240
 
-### Create a folder called 'libs' in your app's root directory and paste the SDK
+### 2. Create a folder called 'libs' in your app's root directory and paste the SDK
 
 https://github.com/user-attachments/assets/2cc90c18-ea9a-4d14-bf85-bf6906bd5e27
 
-### Add the SDK as a dependency in your gradle file
+### 3. Add the SDK as a dependency in your gradle file
 
 https://github.com/user-attachments/assets/1ba08d26-36e9-45b9-b3d7-32f54588e223
 
 ## Initialising the SDK
 
-### Copy the SDK key from the dashboard
+### 1. Copy the SDK key from the dashboard
 
 https://github.com/user-attachments/assets/358e0681-4dcc-4a09-8754-452fa6b744a3
 
-### Call the init method as soon as your app boots up
+### 2. Call the init method as soon as your app boots up
 
 #### Java
 
@@ -68,7 +68,7 @@ class BootActivity : AppCompatActivity() {
 
 https://github.com/user-attachments/assets/9b4c796b-77ee-4626-bb7c-0fafdb70aa69
 
-### Call the trackEvent method
+### 1. Call the trackEvent method
 
 #### Java
 
