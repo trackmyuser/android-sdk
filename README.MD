@@ -6,7 +6,7 @@
 
 https://github.com/user-attachments/assets/e4d96b00-3b74-4bb5-92e5-73bd24fa0240
 
-### 2. Create a folder called 'libs' in your app's root directory and paste the SDK
+### 2. Create a folder named "libs" in the root directory of your app, then add the SDK file to it
 
 https://github.com/user-attachments/assets/2cc90c18-ea9a-4d14-bf85-bf6906bd5e27
 
@@ -64,11 +64,11 @@ class BootActivity : AppCompatActivity() {
 
 ## Event Tracking
 
-### Create an event in the dasboard
+### 1. Create an event in the dasboard
 
 https://github.com/user-attachments/assets/9b4c796b-77ee-4626-bb7c-0fafdb70aa69
 
-### 1. Call the trackEvent method
+### 2. Call the trackEvent method
 
 #### Java
 
