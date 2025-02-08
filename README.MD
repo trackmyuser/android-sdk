@@ -14,6 +14,31 @@ https://github.com/user-attachments/assets/2cc90c18-ea9a-4d14-bf85-bf6906bd5e27
 
 https://github.com/user-attachments/assets/1ba08d26-36e9-45b9-b3d7-32f54588e223
 
+#### Add these permissions in your AndroidManifest.xml
+
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+```
+#### Add these dependencies to your build.gradle
+
+```gradle
+dependencies {
+    //TrackMyUser
+    implementation(name: 'com.trackmyuser.sdk_v0.0.4', ext: 'aar')
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:5.0.0-alpha.11'
+    implementation 'com.squareup.okhttp3:okhttp-dnsoverhttps:4.12.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation "androidx.work:work-runtime:2.8.0"
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+    //
+}
+```
+
 ## Initialising the SDK
 
 ### 1. Copy the SDK key from the dashboard
