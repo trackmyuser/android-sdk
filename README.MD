@@ -35,7 +35,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation "androidx.work:work-runtime:2.8.0"
     implementation 'com.google.android.gms:play-services-ads-identifier:18.2.0'
-    implementation 'androidx.lifecycle:lifecycle-process:2.6.2'
+    implementation 'androidx.lifecycle:lifecycle-process:2.8.7'
     //
 }
 ```
