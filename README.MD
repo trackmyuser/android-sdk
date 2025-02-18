@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/1ba08d26-36e9-45b9-b3d7-32f54588e223
 ```gradle
 dependencies {
     //TrackMyUser
-    implementation(name: 'com.trackmyuser.sdk_v0.0.6', ext: 'aar')
+    implementation(name: 'com.trackmyuser.sdk_v0.1.1', ext: 'aar')
     implementation 'com.android.installreferrer:installreferrer:2.2'
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
     implementation 'com.squareup.okhttp3:okhttp-urlconnection:5.0.0-alpha.11'
