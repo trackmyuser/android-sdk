@@ -4,7 +4,7 @@
   <groupId>trackmyuser</groupId>
   <artifactId>android-sdk</artifactId>
   <version>0.2.0</version>
-  <packaging>aar</packaging>
+  <packaging>pom</packaging>
   <name>TrackMyUser SDK</name>
   <description>TrackMyUser's Measurement and Attribution SDK</description>
   <url>https://github.com/trackmyuser/android-sdk</url>
