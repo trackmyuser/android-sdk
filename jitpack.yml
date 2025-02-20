@@ -2,5 +2,5 @@
 jdk:
   - openjdk17
 install:
-  - FILE="-Dfile=trackmyuser-0.2.2.aar"
+  - FILE="-Dfile=android-sdk.aar"
   - mvn install:install-file $FILE -DgroupId=com.github.trackmyuser -DartifactId=android-sdk -Dversion=0.2.2 -Dpackaging=aar -DgeneratePom=true
