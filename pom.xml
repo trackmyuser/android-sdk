@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>trackmyuser</groupId>
   <artifactId>android-sdk</artifactId>
-  <version>0.2.7</version>
+  <version>0.2.8</version>
   <packaging>pom</packaging>
   <name>TrackMyUser SDK</name>
   <description>TrackMyUser's Measurement and Attribution SDK</description>
