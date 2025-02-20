@@ -3,4 +3,4 @@ jdk:
   - openjdk17
 install:
   - FILE="-Dfile=android-sdk.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.trackmyuser -DartifactId=android-sdk -Dversion=0.2.5 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.trackmyuser -DartifactId=android-sdk -Dversion=0.2.6 -Dpackaging=aar -DgeneratePom=true
