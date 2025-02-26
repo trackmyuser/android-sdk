@@ -2,15 +2,7 @@
 
 ## Integrating the the SDK
 
-### 1. Download the SDK
-
-https://github.com/user-attachments/assets/e4d96b00-3b74-4bb5-92e5-73bd24fa0240
-
-### 2. Create a folder named "libs" in the root directory of your app, then add the SDK file to it
-
-https://github.com/user-attachments/assets/2cc90c18-ea9a-4d14-bf85-bf6906bd5e27
-
-### 3. Add the SDK as a dependency in your gradle file
+### 1. Add the SDK as a dependency in your gradle file
 
 https://github.com/user-attachments/assets/1ba08d26-36e9-45b9-b3d7-32f54588e223
 
@@ -25,18 +17,7 @@ https://github.com/user-attachments/assets/1ba08d26-36e9-45b9-b3d7-32f54588e223
 
 ```gradle
 dependencies {
-    //TrackMyUser
-    implementation(name: 'com.trackmyuser.sdk_v0.1.1', ext: 'aar')
-    implementation 'com.android.installreferrer:installreferrer:2.2'
-    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
-    implementation 'com.squareup.okhttp3:okhttp-urlconnection:5.0.0-alpha.11'
-    implementation 'com.squareup.okhttp3:okhttp-dnsoverhttps:4.12.0'
-    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
-    implementation "androidx.work:work-runtime:2.8.0"
-    implementation 'com.google.android.gms:play-services-ads-identifier:18.2.0'
-    implementation 'androidx.lifecycle:lifecycle-process:2.8.7'
-    //
+    implementation 'com.github.trackmyuser:android-sdk:0.2.17'
 }
 ```
 
