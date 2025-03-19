@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/1ba08d26-36e9-45b9-b3d7-32f54588e223
 
 ```gradle
 dependencies {
-    implementation 'com.github.trackmyuser:android-sdk:0.2.17'
+    implementation 'com.github.trackmyuser:android-sdk:0.2.18'
 }
 ```
 
