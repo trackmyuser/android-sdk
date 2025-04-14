@@ -21,6 +21,14 @@ dependencies {
 }
 ```
 
+#### Add these to your proguard-rules.pro
+
+```gradle
+-keep,allowobfuscation,allowshrinking class kotlin.coroutines.Continuation
+-keep,allowobfuscation,allowshrinking interface retrofit2.Call
+-keep,allowobfuscation,allowshrinking class retrofit2.Response
+```
+
 ## Initialising the SDK
 
 ### 1. Copy the SDK key from the dashboard
