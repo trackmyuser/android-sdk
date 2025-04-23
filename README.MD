@@ -29,6 +29,20 @@ dependencies {
 -keep,allowobfuscation,allowshrinking class retrofit2.Response
 ```
 
+#### Add these to your settings.gradle file
+
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) // make sure RepositoriesMode is set to FAIL_ON_PROJECT_REPOS
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' } // make sure to add this line
+    }
+}
+```
+
 ## Initialising the SDK
 
 ### 1. Copy the SDK key from the dashboard
